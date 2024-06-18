@@ -1,0 +1,11 @@
+server {
+    server_name your_domain_name; #Your domain name, for front
+
+    root /var/www/html; #location for index.html
+    #you can change it 
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}

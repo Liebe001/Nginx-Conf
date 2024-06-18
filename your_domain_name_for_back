@@ -1,5 +1,5 @@
 server {
-    server_name speakapi.lol; #Your domain name
+    server_name your_domain_name; #Your domain name, for back
 
     location / {
         proxy_pass http://127.0.0.1:8080; #Your local ip, 127.0.0.1 is localhost, 8080 is port where is run your app
