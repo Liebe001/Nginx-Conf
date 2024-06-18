@@ -46,8 +46,8 @@ This project demonstrates how to deploy a web application using Nginx as a rever
 
 2. Add the configuration from source:
    
-    - speakapi.lol - for back (Spring boot actually)
-    - speakup.lol - for front (static) (Angular actually)
+    - Your_domain_name_for_back - for back (Spring boot actually)
+    - Your_domain_name_for_front - for front (static) (Angular actually)
 
 4. Enable the configuration by creating a symlink:
     ```sh
