@@ -44,16 +44,17 @@ This project demonstrates how to deploy a web application using Nginx as a rever
     sudo nano /etc/nginx/sites-available/yourdomain.com
     ```
 
-2. Add the following configuration:
+2. Add the configuration from source:
+   
     - speakapi.lol - for back (Spring boot actually)
-    - speakup.lol - for front (static) (Angular acutally)
+    - speakup.lol - for front (static) (Angular actually)
 
-3. Enable the configuration by creating a symlink:
+4. Enable the configuration by creating a symlink:
     ```sh
     sudo ln -s /etc/nginx/sites-available/yourdomain.com /etc/nginx/sites-enabled/
     ```
 
-4. Test the configuration and reload Nginx:
+5. Test the configuration and reload Nginx:
     ```sh
     sudo nginx -t
     sudo systemctl reload nginx
