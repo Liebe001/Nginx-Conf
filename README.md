@@ -1,4 +1,4 @@
-# SpeakUp-Nginx
+# Deploy a site
 
 ## Introduction
 This project demonstrates how to deploy a web application using Nginx as a reverse proxy on an AWS EC2 instance. The guide also includes instructions on how to secure your site with SSL using Certbot.
